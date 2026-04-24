@@ -1,11 +1,11 @@
 import React from 'react'
 
-function QuizTakePage() {
+function AppLayout() {
   return (
     <div>
-      
+      AppLayout
     </div>
   )
 }
 
-export default QuizTakePage
+export default AppLayout
