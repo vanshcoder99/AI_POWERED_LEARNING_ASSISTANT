@@ -1,16 +1,16 @@
 import React from 'react'
 import { BrowserRouter as Router,Routes,Route,Navigate } from 'react-router-dom'
-import LoginPage from './pages/Auth/LoginPage';
-import RegisterPage from './pages/Auth/RegisterPage';
-import NotFoundPage from './pages/NotFoundPage';
-import DashboardPage from './pages/Dashboard/DashboardPage';
-import DocumentListPage from './pages/Documents/DocumentListPage';
-import DocumentDetailPage from './pages/Documents/DocumentDetailPage';
-import FlashcardsListPage from './pages/Flashcards/FlashcardsListPage';
-import FlashcardPage from './pages/Flashcards/FlashcardPage';
-import QuizTakePage from './pages/Quizzes/QuizTakePage'
-import QuizResultPage from './pages/Quizzes/QuizResultPage'
-import ProfilePage from './pages/Profile/ProfilePage'
+import LoginPage from './pages/Auth/LoginPage.jsx';
+import RegisterPage from './pages/Auth/RegisterPage.jsx';
+import NotFoundPage from './pages/NotFoundPage.jsx';
+import DashboardPage from './pages/Dashboard/DashboardPage.jsx';
+import DocumentListPage from './pages/Documents/DocumentListPage.jsx';
+import DocumentDetailPage from './pages/Documents/DocumentDetailPage.jsx';
+import FlashcardsListPage from './pages/Flashcards/FlashcardsListPage.jsx';
+import FlashcardPage from './pages/Flashcards/FlashcardPage.jsx';
+import QuizTakePage from './pages/Quizzes/QuizTakePage.jsx'
+import QuizResultPage from './pages/Quizzes/QuizResultPage.jsx'
+import ProfilePage from './pages/Profile/ProfilePage.jsx'
 const App = () => {
   const isAuthenticated = true;
   const loading = false;
